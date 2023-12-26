@@ -1,0 +1,245 @@
+.Subscribe {
+    background-color: rgb(199, 0, 0);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.35s;
+    vertical-align: top;
+}
+
+    .Subscribe:hover{
+        opacity: 0.8;
+    }
+
+    .Subscribe:active{
+        opacity: 0.4;
+    }
+
+.join {
+    background-color: white;
+    border-color: rgb(87, 87, 221);
+    color: rgb(87, 87, 221);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor:pointer;
+    margin-right: 8px;
+    transition: background-color 1s, color 1s;
+}
+.join:hover {
+background-color: rgb(87, 87, 221);
+color: white;
+}
+.join:active{
+    opacity: 0.6;
+}
+
+.tweet {
+    background-color: rgb(0, 172, 238);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    font-weight: bold;
+    font-size: 13;
+    cursor:pointer;
+    margin-left: 1px;
+    transition: box-shadow 0.30s;
+    vertical-align: top;
+}
+
+.tweet:hover{
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.80);
+}
+
+.Uber{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 36px;
+    width: 115px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+   
+    
+}
+
+.Uber:hover{
+    opacity: 0.8;
+}
+
+.Uber:active{
+    opacity: 0.4;
+}
+
+.Amazon{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    height: 36px;
+    width: 180px;
+    font-weight: 600;
+    
+}
+
+.Amazon:hover{
+    background-color: rgb(172, 143, 0);
+}
+
+.Amazon:active{
+    background-color:rgb(255, 233, 122);
+}
+
+.GitHub{
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 85px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 8;
+    transition: box-shadow 0.30s;
+
+}
+
+.GitHub:hover{
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.80);
+}
+
+.bootstrap{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 115px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.4s;
+}
+
+.bootstrap:hover{
+    opacity: 0.7;
+}
+
+.bootstrap:active{
+    opacity: 1;
+}
+
+.bootstrap-down{
+    background-color: transparent;
+    border-color: rgb(108, 117, 125);
+    color: rgb(108, 117, 125);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    height: 36px;
+    width: 90px;
+    cursor:pointer;
+    margin-left: 8px;
+    font-weight: bold;
+    transition: 0.3s, active 1s;
+}
+
+.bootstrap-down:hover{
+    background-color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+    color: rgb(255, 255, 255);
+}
+
+.bootstrap-down:active{
+    background-color: rgb(255, 0, 0);
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.linkedin{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border:none;
+    cursor:pointer;
+    border-bottom-left-radius:9999px;
+    border-bottom-right-radius:9999px;
+    border-top-left-radius:9999px;
+    border-top-right-radius:9999px;
+    height:36px;
+    width:220px;
+    font-weight:600;
+    
+
+}
+
+.save{
+    background-color: transparent;
+    color: rgb(10, 102, 194);
+    border-color: rgb(10, 102, 194);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    height: 36px;
+    width: 75px;
+    border-bottom-left-radius:9999px;
+    border-bottom-right-radius:9999px;
+    border-top-left-radius:9999px;
+    border-top-right-radius:9999px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.mybutton {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  height: 36px;
+    width: 150px;
+}
+
+.mybutton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -110%;
+  width: 70%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  transform: skewX(-17deg);
+  transition: left 0.3s ease-in-out;
+}
+.mybutton:hover::before {
+  left: 100%;
+}
